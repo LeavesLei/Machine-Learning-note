@@ -1,7 +1,7 @@
 # Embedding
 - word embedding
 - sentence embedding
-- image embedding
+- multimodal embedding
 
 ## Word Embedding
 ### skip-gram model
@@ -36,3 +36,17 @@ CBOW's architecture is same as skip-gram but different train set so different fu
 difficulty: sentences have different length
 ### bag of words - one-hot vector
 un-ordered
+![bow](https://github.com/LeavesLei/Machine-Learning-note/blob/master/image/bag-of-words.jpg)
+
+### paragraph vector
+![paragraph-vector](https://github.com/LeavesLei/Machine-Learning-note/blob/master/image/paragraph-vector.jpg)
+
+### Skip-through
+
+### SNLI - BiLSTM
+
+## Multimodal Embedding
+- multimodal embedding = image embedding + text embedding
+![multimodal-embedding](https://github.com/LeavesLei/Machine-Learning-note/blob/master/image/multimodal-embedding.jpg)
+
+
