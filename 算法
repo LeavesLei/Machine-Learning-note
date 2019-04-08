@@ -1,1 +1,19 @@
+### array
+- access: O(1)
+- insert: O(n)
+- delete: O(n)
 
+### linked list
+- access: O(n)
+- insert: O(1)
+- delete: O(1)
+
+#### reverse linked list
+
+```py
+def reverse_list(self, head):
+    current, previous = head, None
+    while current:
+        current.next, previous, current = previous, current, current.next
+    return previous
+```
